@@ -1,0 +1,140 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.main-header{
+	padding: 15px 0;
+	background-color: orange;
+}
+
+.logo{
+	
+	float: left;
+	text-decoration: none;
+	width: 220px;	
+}
+.logo-img,
+.logo-text{
+	vertical-align: middle;
+}
+
+.main-menu{
+	
+	float: left;
+	width: 546px;
+	text-align: center;
+}
+
+.main-menu li{
+	
+	display: inline-block;
+
+}
+
+.main-menu a{
+	border: 1px solid #000;
+	padding: 11px;
+	display: inline-block;
+}
+.button-order{
+	float: right;
+	width: 174px;
+	height: 46px;
+	padding: 10px;
+	border: none;
+}
+
+.promo{
+	padding: 15px 0;
+	text-align: center;
+	background-color: lightgray;
+}
+
+.consult-form{
+	overflow: hidden;
+
+}
+.consult-form-item{
+	width: 22%;
+	margin-right: 4%;
+	float: left;
+}
+.consult-form-item: last-child{
+	margin-right: 0;
+}
+
+.advantages{
+	padding: 15px 0;
+	background-color: lightgray;
+}
+
+.advantages-item{
+	width: 22%;
+	margin-right: 4%;
+	float: left;
+	padding-left: 35px;
+	box-sizing: border-box;
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+
+.advantages-item:last-child {
+	margin-right: 0;
+}
+
+.advantages-item-tech{
+	background-image: url(../img-styles/icon-tech.png);
+}
+
+.advantages-item-worker{
+	background-image: url(../img-styles/icon-worker.png);
+}
+
+.advantages-item-border{
+	background-image: url(../img-styles/icon-border.png);
+}
+
+.advantages-item-operator{
+	background-image: url(../img-styles/icon-operator.png);
+}
+
+.profile{
+	padding: 15px 0;
+	background-color: gray;
+}
+
+.profile-data{
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+
+.profile-review{
+	width: 65%;
+	float: left;
+}
+
+.review-item{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.review-img{
+	float: left;
+	width: 20%;
+	margin-right: 5%;
+}
+
+.review-text{
+	float: left;
+	width: 75%;
+}
