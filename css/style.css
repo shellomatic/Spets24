@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .container{
@@ -9,11 +10,14 @@
 	overflow: hidden;
 	padding-left: 10px;
 	padding-right: 10px;
+
 }
 
 .main-header{
 	padding: 15px 0;
-	background-color: orange;
+	background-color: #ffcd34;
+	overflow: hidden;
+
 }
 
 .logo{
@@ -25,6 +29,8 @@
 .logo-img,
 .logo-text{
 	vertical-align: middle;
+	font-size: 24px;
+	color: black;
 }
 
 .main-menu{
@@ -41,43 +47,126 @@
 }
 
 .main-menu a{
-	border: 1px solid #000;
+	font-size: 16px;
 	padding: 11px;
 	display: inline-block;
 }
 .button-order{
 	float: right;
-	width: 174px;
-	height: 46px;
-	padding: 10px;
+	width: 175px;
+	height: 26px;
 	border: none;
+	background-color: #ffe184;
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+	vertical-align:middle;
+	display: inline-block;
+	padding: 12px 0 8px 0;
+}
+
+.page-break{ 
+width: 100%; 
+height: 16px; 
+background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%); 
+-webkit-background-size: 35px 20px; 
+background-size: 35px 20px;
 }
 
 .promo{
-	padding: 15px 0;
+	padding: 100px;
 	text-align: center;
-	background-color: lightgray;
+	background-image: url(..//img/promo-banner.jpg);
+	background-repeat: no-repeat;
+
+
 }
+
+.promo-header{
+
+	font-size: 44px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.promo-title{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+
+.btn-catalog-box{
+	margin: 35px;
+}
+
+.button-catalog{
+	border: 2px solid #ffcd34;
+	text-decoration: none;
+	color: #fff;
+	padding: 16px 52px 16px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+}
+
+.button-catalog:after{
+	position: absolute;
+	content: '';
+	width: 11px;
+	height: 11px;
+	border-right: 6px solid #fff;
+	border-top: 6px solid #fff;
+	top: 0;
+	bottom: 0;
+	right: 22px;
+	margin: auto;
+	transform: rotate(45deg);
+
+}
+
+.consult{
+background-color: #202e3b;
+padding: 100px;
+}
+
+.consult-title{
+	color: #ffcd34;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 40px;
+}
+
 
 .consult-form{
 	overflow: hidden;
 
 }
+
 .consult-form-item{
 	width: 22%;
 	margin-right: 4%;
 	float: left;
 }
-.consult-form-item: last-child{
+.btn-order-consult{
 	margin-right: 0;
+	border: 1px solid #ffcd34;
+	height: 46px;
+	width: 223px;
+	background-color: #ffcd34;
+	color: #202e3b;
 }
 
 .advantages{
-	padding: 15px 0;
-	background-color: lightgray;
+	padding: 100px 0;
+	background-color: #fff;
 }
 
 .advantages-item{
+	font-size: 13px;
+	color: #424242;
 	width: 22%;
 	margin-right: 4%;
 	float: left;
@@ -92,24 +181,30 @@
 }
 
 .advantages-item-tech{
-	background-image: url(../img-styles/icon-tech.png);
+	background-image: url(../img/icon-tech.png);
 }
 
 .advantages-item-worker{
-	background-image: url(../img-styles/icon-worker.png);
+	background-image: url(../img/icon-worker.png);
 }
 
 .advantages-item-border{
-	background-image: url(../img-styles/icon-border.png);
+	background-image: url(../img/icon-border.png);
 }
 
 .advantages-item-operator{
-	background-image: url(../img-styles/icon-operator.png);
+	background-image: url(../img/icon-operator.png);
+}
+
+.main-tech{
+	background-color: #f3f3f3;
+	padding: 100px;
 }
 
 .profile{
 	padding: 15px 0;
-	background-color: gray;
+	background-color: #202e3b;
+
 }
 
 .profile-data{
