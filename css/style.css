@@ -596,6 +596,7 @@ padding: 10px;
 	font-weight: bold;
 	position: relative;
 	margin-bottom: 30px;
+	padding-left: 40px;
 }
 
 .catalog-tech-subtitle:before{
@@ -603,11 +604,12 @@ padding: 10px;
 	background-image: url(..//img/catalog-tech-truck_icon.png);
 	background-repeat: no-repeat;
 	content: '';
-	width: 32px;
-	height: 28px;
+	width: 30px;
+	height: 30px;
 	top: 0;
 	bottom: 0;
-	left: 100px;
+	left: 0;
+
 }
 
 .tech-filter-item{
@@ -657,13 +659,22 @@ padding: 10px;
  	padding-bottom: 100px;
  }
 
-.filter-item{
+.filter-item, .offer-item{
 	display: inline-block;
-	padding: 30px;
 	background-color: #fff;
-	margin: 10px;
 }
 
+.filter-item{
+	padding: 30px;
+	margin: 10px;
+}
+/*
+.filter-item:nth-child(3) {
+	position: relative;
+}
+
+.filter-item:nth-child(3) 
+*/
 .filter-item-title{
 	font-size: 21px;
 	font-weight: bold;
@@ -715,6 +726,7 @@ padding: 10px;
 	padding: 10px 20px;
 	text-decoration: none;
 	display: inline-block;
+	margin: -4px;
 }
 
 .button-offer-more:hover{
@@ -742,9 +754,23 @@ padding: 10px;
 }
 
 .offer-item{
-
-	margin-right: 10px;
+padding: 20px;
+margin: 10px;
 }
+
+
+.offer-price{
+	color: #d12222;
+	text-decoration: line-through;
+	font-size: 22px;
+}
+
+.offer-item-number{
+	color: #000;
+	font-size: 22px;
+	margin-left: 10px;
+}
+
 .foot{
 	background-color: #202e3b;
 	overflow: hidden;
