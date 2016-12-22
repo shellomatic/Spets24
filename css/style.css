@@ -48,7 +48,7 @@ fieldset {
 
 }
 
-.main-menu a{
+.main-item{
 	font-size: 16px;
 	padding: 11px;
 	display: inline-block;
@@ -68,16 +68,14 @@ border: 1px solid #bc9d36;
 
 .button-order{
 	
-	width: 175px;
-	height: 46px;
 	background-color: #ffe184;
 	text-decoration: none;
-	color: #000000;
+	color: #000;
 	display: inline-block;	
 	margin-left: 35px;
-	padding: 0;
+	padding: 12px 30px;
 	border: none;
-
+	text-decoration: none;
 }
 
 .button-order:hover{
@@ -494,6 +492,7 @@ padding: 10px;
 	padding: 10px 38px 10px 16px;
 	text-decoration: none;
 	position: relative;
+	display: inline-block;
 }
 
 
@@ -519,6 +518,233 @@ padding: 10px;
 	background-color: #f6bf16;
 }
 
+
+.catalog-consult{
+	padding: 50px 0;
+	background-image: url(..//img/catalog-banner.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;	background-repeat: no-repeat;
+}
+
+.consult-left{
+	float: left;
+	width: 60%;
+}
+
+.subtitle-catalog{
+	font-weight: normal;
+	font-size: 26px;
+	color: #f4c533;
+	margin-bottom: 20px;
+}
+
+.consult-left p{
+	font-weight: normal;
+	font-size: 16px;
+	color: #fff;
+}
+
+.consult-right{
+	float: right;
+	width: 30%;
+	padding-right: 0;
+	display: inline-block;
+	padding-left: 20px;
+}
+
+.consult-button{
+	background-color: #ffcd34;
+	font-size: 18px;
+	font-weight: bold;
+	color: #202e3b;
+	text-decoration: none;
+	padding: 15px 20px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.consult-button:hover{
+	background-color: #ffd966;
+}
+
+.consult-button:active{
+	background-color: #f6bf16;
+}
+
+.consult-right p{
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	width: 80%;
+}
+
+.catalog-tech-box{
+	background-color: #f3f3f3;
+}
+
+.catalog-tech{
+	padding-top: 25px;
+}
+
+.catalog-tech-filter{
+	float: left;
+	width: 30%;
+}
+
+.catalog-tech-subtitle{
+	font-size: 26px;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.catalog-tech-subtitle:before{
+	position: absolute;
+	background-image: url(..//img/catalog-tech-truck_icon.png);
+	background-repeat: no-repeat;
+	content: '';
+	width: 32px;
+	height: 28px;
+	top: 0;
+	bottom: 0;
+	left: 100px;
+}
+
+.tech-filter-item{
+	color: #202e3b;
+	text-decoration: underline;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.download-pdf-button{
+	background-color: #354b60;
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 12px 25px 12px 40px;
+	text-decoration: none;
+	margin-top: 10px;
+	display: inline-block;
+	position: relative;
+}
+
+.download-pdf-button:before{
+	content: '';
+	position: absolute;
+	top: 12px;
+	bottom: 0;
+	left: 12px;
+	height: 20px;
+	width: 20px;
+	background-image: url(../img/catalog-download-icon.png);
+	background-repeat: no-repeat;
+
+}
+
+.download-pdf-button:hover{
+	background-color: #46617a;
+}
+
+.download-pdf-button:active{
+	background-color: #567999;
+}
+ 
+
+ .tech-filter-images{
+ 	float: right;
+ 	width: 70%;
+ 	padding-bottom: 100px;
+ }
+
+.filter-item{
+	display: inline-block;
+	padding: 30px;
+	background-color: #fff;
+	margin: 10px;
+}
+
+.filter-item-title{
+	font-size: 21px;
+	font-weight: bold;
+	color: #000;
+}
+
+.tech-item-img{
+	margin: 15px;
+}
+.filter-item-price{
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	padding: 15px 0;
+}
+
+.filter-item-number{
+	font-weight: bold;
+	font-size: 27px;
+	color: #000;
+}
+
+
+.button-offer-rent{
+	background-color: #f3c331;
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 10px 17px;
+	text-decoration: none;
+	display: inline-block;
+	margin: -4px;
+}
+
+.button-offer-rent:hover{
+	background-color: #ffd966;
+}
+
+.button-offer-rent:active{
+	background-color: #ffc600;
+}
+
+
+.button-offer-more{
+	background-color: #354b60;
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 10px 20px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.button-offer-more:hover{
+	background-color: #46617a;
+}
+
+.button-offer-more:active{
+	background-color: #567999;
+}
+
+.catalog-special-offers{
+	padding-top: 40px;
+	padding-bottom: 50px;
+	background-image: url(../img/catalog-background-bottom.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.catalog-special-offers h2{
+	color: #fff;
+	font-size: 26px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.offer-item{
+
+	margin-right: 10px;
+}
 .foot{
 	background-color: #202e3b;
 	overflow: hidden;
