@@ -54,6 +54,12 @@ fieldset {
 	display: inline-block;
 	text-decoration: none;
 	color: #bc9d36;
+	border: 1px solid transparent;
+
+}
+
+.main-item.active{
+	color: #000;
 }
 
 .main-item:hover{
@@ -619,6 +625,28 @@ padding: 10px;
 	display: inline-block;
 }
 
+.tech-filter-item.active{
+	color: #353535;
+	text-decoration: none;
+	font-weight: bold;
+	position: relative;
+	padding-left: 15px;
+}
+
+.tech-filter-item.active:before{
+	position: absolute;
+	content: '';
+	width: 6px;
+	height: 6px;
+	border-right: 3px solid #353535;
+	border-top: 3px solid #353535;
+	top: 0;
+	bottom: 0;
+	left:-5px;
+	margin: auto;
+	transform: rotate(45deg);
+}
+
 .download-pdf-button{
 	background-color: #354b60;
 	color: #fff;
@@ -667,14 +695,34 @@ padding: 10px;
 .filter-item{
 	padding: 30px;
 	margin: 10px;
-}
-/*
-.filter-item:nth-child(3) {
 	position: relative;
+	overflow: hidden;
 }
 
-.filter-item:nth-child(3) 
-*/
+
+.ribbon{
+
+transform: rotate(45deg);
+position: absolute;
+top: 10px;
+right: -30px;
+display: block;
+text-align: center;
+color: #fff;
+width: 100px;
+padding: 5px;
+font-weight: bold;
+font-size: 18.97px;
+
+}
+
+.new-ribbon{
+background-color: #00c22e;
+}
+.sale-ribbon{
+	background-color: #d12222;
+}
+
 .filter-item-title{
 	font-size: 21px;
 	font-weight: bold;
@@ -756,6 +804,8 @@ padding: 10px;
 .offer-item{
 padding: 20px;
 margin: 10px;
+position: relative;
+overflow: hidden;
 }
 
 
@@ -819,6 +869,7 @@ margin: 10px;
 
 .footer-item{
 	color: #fff;
+	border: 1px solid transparent;
 }
 
 .button-order-footer{
