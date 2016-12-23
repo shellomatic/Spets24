@@ -194,13 +194,12 @@ padding: 45px 0;
 
 }
 
-input[type = 'text']{
-	color: #fff ;
-}
+
 ::-webkit-input-placeholder {color:#fff;} 
 ::-moz-placeholder {color:#fff;}/* Firefox 19+ */ 
 :-moz-placeholder {color:#fff;}/* Firefox 18- */ 
 :-ms-input-placeholder {color:#fff;}
+
 
 .btn-order-consult{
 	margin-right: 0;
@@ -870,13 +869,10 @@ overflow: hidden;
 }
 
 .map{
-	margin-right: 20px;
-	height: 100%;
+	margin-right: 25px;
+	width: 600px;
 }
 
-.contact-details{
-	height: 100%;
-}
 
 .phone, .email{
 	font-size: 18px;
@@ -921,20 +917,44 @@ overflow: hidden;
 
 .contact-form-item{
 	border: 1px solid #d5d5d5;
-	padding: 15px 0;
+	padding: 15px 0 15px 10px;
 	color: #bcbcbc;
 	display: block;
 	width: 100%;
 	margin: 10px 0;
+	font-size: 16px;
+	font-weight: normal;
+
+}
+
+ 
+.contact-form-item::-webkit-input-placeholder {
+   color: #bcbcbc;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #bcbcbc;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color:#bcbcbc;  
+}
+
+:-ms-input-placeholder {  
+   color: #bcbcbc;  
+}
+
+.contact-form-item:nth-child(3) {
+	height: 90px;
 }
 .contact-button-consult{
 	background-color: #354b60;
 	font-size: 18px;
 	font-weight: normal;
 	color: #f5f6f7;
-	border: 2px solid transparent;
 	margin-top: 10px;
-
+	margin-bottom: 0;
+	border: none;
 }
 
 .contact-reviews{
@@ -954,7 +974,7 @@ overflow: hidden;
 	text-align: center;
 	padding: 20px;
 }
-
+.
 .contact-review-item:first-child{
 	padding-left: 0;
 }
@@ -974,6 +994,7 @@ overflow: hidden;
 	font-weight: bold;
 	font-style: normal;
 }
+
 
 .foot{
 	background-color: #202e3b;
