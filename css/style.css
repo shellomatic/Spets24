@@ -393,7 +393,7 @@ padding: 10px;
 	
 }
 
-.map{
+.map-main{
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -564,7 +564,7 @@ padding: 10px;
 	font-weight: bold;
 	color: #202e3b;
 	text-decoration: none;
-	padding: 15px 20px;
+	padding: 15px 25px;
 	display: inline-block;
 	margin-bottom: 20px;
 }
@@ -819,6 +819,160 @@ overflow: hidden;
 	color: #000;
 	font-size: 22px;
 	margin-left: 10px;
+}
+
+
+
+.contact-header{
+	padding: 30px 0;
+	background-image: url(../img/contacts-excavator_back.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.contact-header h1,p{
+	display: inline-block;
+	padding-top: 20px;
+
+}
+.contact-header h1{
+
+	font-weight: normal;
+	font-size: 26px;
+	color: #ffcd34;
+	padding-right: 15px;
+	
+}
+
+.contact-header p{
+	font-size: 16px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.contact-consult-button{
+	float: right;
+	margin-top: 15px;
+}
+
+.contact-info{
+	background-color: #f3f3f3;
+	padding: 40px 0;
+	width: 100%;
+
+}
+
+.map, .contact-details{
+	display: inline-block;
+	float: left;
+}
+
+.map{
+	margin-right: 20px;
+	height: 100%;
+}
+
+.contact-details{
+	height: 100%;
+}
+
+.phone, .email{
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	position: relative;
+	display: block;
+	margin-bottom: 20px;
+	position: relative;
+	padding-left: 30px;
+}
+
+.phone:before{
+	position: absolute;
+	content: '';
+	background-image: url(../img/contacts-phone-icon.png);
+	background-repeat: no-repeat;
+	top: 0;
+	bottom: 0;
+	left: 0px;
+	height: 23px;
+	width: 23px;
+}
+
+.email:before{
+	position: absolute;
+	content: '';
+	background-image: url(../img/contacts-mail-icon.png);
+	background-repeat: no-repeat;
+	top: 0px;
+	bottom: 0;
+	left: 0px;
+	height: 23px;
+	width: 23px;
+}
+
+
+.contact-form-text{
+	margin: 10px 0;
+}
+
+
+.contact-form-item{
+	border: 1px solid #d5d5d5;
+	padding: 15px 0;
+	color: #bcbcbc;
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+}
+.contact-button-consult{
+	background-color: #354b60;
+	font-size: 18px;
+	font-weight: normal;
+	color: #f5f6f7;
+	border: 2px solid transparent;
+	margin-top: 10px;
+
+}
+
+.contact-reviews{
+	padding: 30px 0;
+	color: #202e3b;
+}
+
+.contact-review h2{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.contact-review-item{
+	display: inline-block;
+	width: 20%;
+	font-size: 14px;
+	text-align: center;
+	padding: 20px;
+}
+
+.contact-review-item:first-child{
+	padding-left: 0;
+}
+
+.contact-review-item:last-child{
+	padding-right: 0;
+}
+
+
+.contact-review-text{
+	font-weight: normal;
+	font-style: italic;
+	padding: 20px 0;
+}
+
+.contact-review-author{
+	font-weight: bold;
+	font-style: normal;
 }
 
 .foot{
