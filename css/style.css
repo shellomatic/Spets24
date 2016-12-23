@@ -823,7 +823,7 @@ overflow: hidden;
 
 
 .contact-header{
-	padding: 30px 0;
+	padding: 40px 0;
 	background-image: url(../img/contacts-excavator_back.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -863,14 +863,13 @@ overflow: hidden;
 
 }
 
-.map, .contact-details{
-	display: inline-block;
+.map{
+	margin-right: 25px;
 	float: left;
 }
 
-.map{
-	margin-right: 25px;
-	width: 600px;
+.contact-details{
+	float: right;
 }
 
 
@@ -924,6 +923,7 @@ overflow: hidden;
 	margin: 10px 0;
 	font-size: 16px;
 	font-weight: normal;
+	box-sizing:border-box;
 
 }
 
@@ -958,7 +958,7 @@ overflow: hidden;
 }
 
 .contact-reviews{
-	padding: 30px 0;
+	padding: 40px 0;
 	color: #202e3b;
 }
 
@@ -969,18 +969,20 @@ overflow: hidden;
 
 .contact-review-item{
 	display: inline-block;
-	width: 20%;
+	width: 23%;
 	font-size: 14px;
 	text-align: center;
-	padding: 20px;
+	padding-right: 18px;
+	padding-top: 15px;
 }
 .
-.contact-review-item:first-child{
-	padding-left: 0;
+.contact-review-item:first-child {
+	float: left;
 }
 
-.contact-review-item:last-child{
-	padding-right: 0;
+.contact-review-item:last-child {
+	 float: right;
+	 padding-right: 0;
 }
 
 
